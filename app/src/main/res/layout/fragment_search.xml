@@ -49,24 +49,25 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
             android:layout_below="@id/home_title_linear"
-            android:paddingTop="10dp"
-            android:padding="30dp">
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:paddingTop="10dp">
 
             <SearchView
+                android:id="@+id/searchView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:queryHint="Search Here"
                 android:iconifiedByDefault="false"
-                android:id="@+id/searchView">
+                android:queryHint="Search Here">
 
             </SearchView>
+
             <ListView
+                android:id="@+id/searchList"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:id="@+id/searchList">
+                android:layout_marginTop="10dp">
 
 
             </ListView>

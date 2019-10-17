@@ -3,6 +3,7 @@ package com.example.hp.com.dummyvoteproject.ui.search;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,7 +28,7 @@ import java.util.List;
 public class SearchFragment extends Fragment {
 
     //defining
-    SearchView searchView ;
+    SearchView  searchView ;
     ListView searchList;
 
     //for adapter
@@ -48,9 +49,12 @@ public class SearchFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_search, container, false);
         //final TextView textView = root.findViewById(R.id.text_search);
 
+
+
         //casting
-        searchView = (SearchView)root.findViewById(R.id.searchView);
+        searchView =  (SearchView)root.findViewById(R.id.searchView);
         searchList = (ListView)root.findViewById(R.id.searchList);
+
 
         list=new ArrayList<>();
         list.add("Bahujan Samaj Party");
@@ -60,7 +64,7 @@ public class SearchFragment extends Fragment {
         list.add("Aam Aadmi Party");
         list.add("Janata Dal United");
 
-        adapter=new ArrayAdapter<>(context,android.R.layout.simple_list_item_1,list);
+        adapter=new ArrayAdapter<>(getActivity().getApplicationContext(),android.R.layout.simple_list_item_1,list);
         searchList.setAdapter(adapter);
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
