@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Dummy vote project</string>
+    <string name="app_name1">Your vote</string>
+    <string name="text_LoginHeading">Login</string>
+    <string name="txt_login_email">Email/Mobile</string>
+    <string name="txt_login_password">Password</string>
+    <string name="txt_login_button">Login</string>
+    <string name="txt_forgot_password">Forgot Password?</string>
+    <string name="txt_noAccount">Do not Have Account?</string>
+    <string name="txt_login_with_google">Login with Google</string>
+    <string name="text_Signup_Heading">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="re_enter_password">Re-Enter password</string>
+    <string name="txt_signup_button">Sign up</string>
+    <string name="phone_number">Mobile Number</string>
+    <string name="signup_with_google">Sign up With Google</string>
+    <string name="temp1">This is Headline Of the News.....</string>
+    <string name="temp2">This will be sub title or description of News</string>
+    <string name="title_activity_bottom_navigation">bottom_navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_search">Search</string>
+    <string name="title_vote">Vote</string>
+</resources>
